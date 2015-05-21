@@ -1,0 +1,4 @@
+#!/bin/bash
+# When placed here: $VIRTUALENVWRAPPER_HOOK_DIR/predeactivate
+# this hook is sourced before every virtualenv is deactivated.
+screen -X title bash

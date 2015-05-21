@@ -1,0 +1,5 @@
+#!/bin/bash
+# When placed here: $VIRTUALENVWRAPPER_HOOK_DIR/preactivate 
+# this hook is run before every virtualenv is activated.
+# argument: environment name
+screen -X title $1
